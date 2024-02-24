@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src="https://kit.fontawesome.com/985e23ddc4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---- header-->
+    <div id="header">
+        <div class="contaier">
+            <nav>
+                <img src="img/2-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>JAVA Developer</p>
+                <h1>Hi, I'm <span>Anurag Mishra</span><br>From India </h1>
+            </div>
+        </div>
+    </div>
+    <!------------about------------------------------->
+    <div id="about">
+        <div class="contaier">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Innovative IT job seeker with a passion for problem-solving and delivering robust solutions. Expertise in Web Development and Programming, coupled with strong communication and collaboration skills. Eager to contribute dynamic skills to drive technological excellence in a challenging IT environment.Throughout my career, I've had the opportunity to collaborate with many technical and non technical programs & teams. I am known for my management,communication and leadership skills and a commitment to delivering high-quality work. My goal is to be a full stack software engineer.I hold a degree of master of computer application and I continually seek opportunities for professional growth and development. I am excited about the prospect of future projects.Let's connect and explore how my skills and experience can bring value to your company.
+                     </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links"onclick="opentab('achievments')">Achievments</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web development</span><br>Designing web sites Development</li>
+                            <li><span>Data Analytics</span><br>Data analysis and business intelligence</li>
+                            <li><span>software engineering</span><br>Designing & Development of software</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Present</span><br>MCA From UIET CSJM University</li>
+                            <li><span>2019-2022</span><br>BSc Mathematics from PPN College </li>
+                            <li><span>2018-2019</span><br>Intermediate From KUV Inter College</li>
+                            <li><span>2016-2017</span><br>HighSchool  From KUV Inter College </li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="achievments">
+                        <ul>
+                            <li><span>2022-Present</span><br>MCA Class Representative</li>
+                            <li><span>2023-Present</span><br>Placement Student Coordinator</li>
+                            <li><span>2022-2023</span><br>MCA 1st year Topper</li>
+                            <li><span>2023-Present</span><br>Student Council & NSS Member</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  About  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/!.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Iusto porro earum corrupti. Ducimus, hic esse fuga ab itaque iure. Quia itaque 
+                    labore, pariatur delectus maxime natus numquam sunt sequi aut!</p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>degigning</li>
+                            <li><span>web</span><br>degigning</li>
+                            <li><span>app</span><br>degigning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>degigning</li>
+                            <li><span>web</span><br>degigning</li>
+                            <li><span>app</span><br>degigning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>UI/UX</span><br>degigning</li>
+                            <li><span>web</span><br>degigning</li>
+                            <li><span>app</span><br>degigning</li>
+                        </ul>
+                    </div>
+                </div>       
+        </div>
+    </div>
+</div> --->
+<!--------------------------------------------services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae maiores repellendus blanditiis, ipsam cumque cupiditate mollitia temporibus similique quia, sed eveniet deleniti. Earum repudiandae optio aliquam, doloribus ipsa officiis unde.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-border-none"></i>
+                <h2>web app</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae maiores repellendus blanditiis, ipsam cumque cupiditate mollitia temporibus similique quia, sed eveniet deleniti. Earum repudiandae optio aliquam, doloribus ipsa officiis unde.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-node"></i>
+                <h2>Applets</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae maiores repellendus blanditiis, ipsam cumque cupiditate mollitia temporibus similique quia, sed eveniet deleniti. Earum repudiandae optio aliquam, doloribus ipsa officiis unde.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/0.jpg">
+                <div class="layer">
+                    <h3>social meadia app</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, sapiente.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/0.jpg">
+                <div class="layer">
+                    <h3>yolo meadia app</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, sapiente.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/0.jpg">
+                <div class="layer">
+                    <h3>golo meadia app</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, sapiente.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!--------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ashu13139@g.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i> 56489349</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="pdf add kr lena" download class="btn btn2">download cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p> sfsfdsgsdgdsgsdggsgdgfgdggggdgfsg </p>
+</div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-link");
+    var tablinks = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablinks of tablinks){
+        tablink.classlist.remove("active-link");
+    }
+    for(tablinks of tablinks){
+        tablink.classlist.remove("active-tab");
+    }
+    event.currentTarget.classlist.add("activelink");
+    document.getElementById(tabname).classlist.add("activetab");
+}
+
+</script>
+
+
+</body>
+</html>
